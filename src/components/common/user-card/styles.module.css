@@ -1,0 +1,12 @@
+.container {
+  max-width: 25vw;
+  background-color: var(--card);
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
