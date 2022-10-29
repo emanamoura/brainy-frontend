@@ -1,0 +1,19 @@
+:root {
+  --card:#00A3FF;
+  --primary-main:#37E499;
+  --primary-light: #1ACFFF;
+  --text-primary: #FFFFFF;
+  --text-secondary: #AAAAAA;
+  --text-secondary-dark: #666666;
+}
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body , h1, h2, h3, h4, h5, h6, input, textarea {
+  margin: 0;
+  padding: 0;
+}
