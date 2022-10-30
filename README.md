@@ -10,8 +10,6 @@
 - Styling with [CSS Modules](https://github.com/css-modules/css-modules)
 - Linting with [ESLint](https://eslint.org/)
 - Formatting with [Prettier](https://prettier.io/)
-- Pre-commit and pre-push Git hooks with [Husky](https://github.com/typicode/husky) and [lint-staged](https://github.com/okonet/lint-staged)
-
 ## Installation
 
 This project runs on [Node.js v16](https://nodejs.org/) and uses [Yarn v1](https://yarnpkg.com/) as dependency manager.
