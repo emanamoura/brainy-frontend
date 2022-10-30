@@ -14,6 +14,8 @@
 
 This project runs on [Node.js v16](https://nodejs.org/) and uses [Yarn v1](https://yarnpkg.com/) as dependency manager.
 
+You must have the application backend running in your computer to work ! 
+
 1. Clone the repository and install dependencies:
 
    ```bash
