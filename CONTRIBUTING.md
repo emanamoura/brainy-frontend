@@ -44,11 +44,7 @@ Pull requests must target `canary`. As with commit messages, pull request titles
 `type(optional scope): subject (#<task-id>)`
 
 > Example: `feat(parser): add ability to parse arrays (#47)`
-
-- After creating a pull request, the [CI action](./.github/workflows/ci.yml) will configure a remote testing environment
-  and run unit and integration tests. It's a good practice to wait until all checks have passed before requesting a
-  review.
-
+> 
 - After your pull request is reviewed and you've made the necessary changes, click "Mark as resolved" on the resolved
   discussions and ask the reviewer(s) to re-review your pull request.
 
