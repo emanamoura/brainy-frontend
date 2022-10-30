@@ -34,7 +34,3 @@ This project runs on [Node.js v16](https://nodejs.org/) and uses [Yarn v1](https
 
 Learn more about the contributing conventions and guidelines at [CONTRIBUTING.md](./CONTRIBUTING.md).
 
-```bash
-$ yarn test
-```
-
