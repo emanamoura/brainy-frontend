@@ -1,7 +1,7 @@
 import City from './city';
 import { CityFields, CityResponse } from './types';
 
-class PublicationFactory {
+class CityFactory {
   static createFromResponse(response: CityResponse) {
     return new City(this.mapResponseToFields(response));
   }
@@ -14,13 +14,13 @@ class PublicationFactory {
     };
   }
 
-  static toResponse(publication: City): CityResponse {
+  static toResponse(city: City): CityResponse {
     return {
-      id: publication.id(),
-      city: publication.city(),
-      state: publication.state(),
+      id: city.id(),
+      city: city.city(),
+      state: city.state(),
     };
   }
 }
 
-export default PublicationFactory;
+export default CityFactory;

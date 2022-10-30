@@ -1,7 +1,7 @@
 import { AxiosInstance } from 'axios';
 
-import Publication from '@/models/city/city';
-import PublicationFactory from '@/models/city/city-factory';
+import City from '@/models/city/city';
+import CityFactory from '@/models/city/city-factory';
 import { CityResponse } from '@/models/city/types';
 
 import { CITY_ENDPOINT } from './constants';
@@ -9,10 +9,10 @@ import { CITY_ENDPOINT } from './constants';
 class CityClient {
   constructor(private api: AxiosInstance) {}
 
-  async get(): Promise<Publication[]> {
+  async get(): Promise<City[]> {
     const { data: citiesResponses } = await this.api.get<CityResponse[]>(CITY_ENDPOINT);
-    const publications = citiesResponses.map((response) => PublicationFactory.createFromResponse(response));
-    return publications;
+    const cities = citiesResponses.map((response) => CityFactory.createFromResponse(response));
+    return cities;
   }
 }
 
